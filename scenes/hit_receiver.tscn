@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfs1r010a1fa1"]
+
+[ext_resource type="Script" path="res://scripts/hit_receiver.gd" id="1_a8nmy"]
+
+[node name="hit_receiver" type="Node"]
+script = ExtResource("1_a8nmy")
