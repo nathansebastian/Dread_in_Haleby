@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://debhcrx4utpr3"]
+
+[ext_resource type="Texture2D" uid="uid://1yo133jbbqrp" path="res://textures/gun.png" id="1_nodg1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h605o"]
+size = Vector2(25, 65)
+
+[node name="level2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(502, 400)
+scale = Vector2(4.59351, 4.59351)
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("1_nodg1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-2.5, 0.5)
+shape = SubResource("RectangleShape2D_h605o")
